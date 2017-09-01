@@ -14,6 +14,10 @@
 		D39430491F59348E00288418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39430471F59348E00288418 /* LaunchScreen.storyboard */; };
 		D39430541F59348F00288418 /* testExpandSectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39430531F59348F00288418 /* testExpandSectionTests.swift */; };
 		D394305F1F59348F00288418 /* testExpandSectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394305E1F59348F00288418 /* testExpandSectionUITests.swift */; };
+		D394306D1F5934B600288418 /* SingleAnalaysisViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394306C1F5934B600288418 /* SingleAnalaysisViewCell.swift */; };
+		D394306F1F5934C600288418 /* SingleAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394306E1F5934C600288418 /* SingleAnalysisViewController.swift */; };
+		D39430731F59353900288418 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39430721F59353900288418 /* Section.swift */; };
+		D39430751F59356500288418 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39430741F59356500288418 /* ExpandableHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		D394305A1F59348F00288418 /* testExpandSectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testExpandSectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D394305E1F59348F00288418 /* testExpandSectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testExpandSectionUITests.swift; sourceTree = "<group>"; };
 		D39430601F59348F00288418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D394306C1F5934B600288418 /* SingleAnalaysisViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleAnalaysisViewCell.swift; sourceTree = "<group>"; };
+		D394306E1F5934C600288418 /* SingleAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleAnalysisViewController.swift; sourceTree = "<group>"; };
+		D39430721F59353900288418 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		D39430741F59356500288418 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				D394303E1F59348E00288418 /* AppDelegate.swift */,
 				D39430401F59348E00288418 /* ViewController.swift */,
+				D394306E1F5934C600288418 /* SingleAnalysisViewController.swift */,
+				D39430741F59356500288418 /* ExpandableHeaderView.swift */,
+				D39430721F59353900288418 /* Section.swift */,
+				D394306C1F5934B600288418 /* SingleAnalaysisViewCell.swift */,
 				D39430421F59348E00288418 /* Main.storyboard */,
 				D39430451F59348E00288418 /* Assets.xcassets */,
 				D39430471F59348E00288418 /* LaunchScreen.storyboard */,
@@ -262,7 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39430731F59353900288418 /* Section.swift in Sources */,
+				D39430751F59356500288418 /* ExpandableHeaderView.swift in Sources */,
+				D394306D1F5934B600288418 /* SingleAnalaysisViewCell.swift in Sources */,
 				D39430411F59348E00288418 /* ViewController.swift in Sources */,
+				D394306F1F5934C600288418 /* SingleAnalysisViewController.swift in Sources */,
 				D394303F1F59348E00288418 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
